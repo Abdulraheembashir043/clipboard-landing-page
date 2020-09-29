@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header, footer, main, article, section, aside, nav {
+  display: block;
+}
+
+.wrapper {
+  background: url(../images/bg-header-mobile.png) no-repeat;
+  padding: 70px 30px 0;
+}
+
+.wrapper h1, .wrapper h2, .wrapper h3 {
+  color: #4c545d;
+  text-align: center;
+}
+
+.wrapper p {
+  color: #9fabb2;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.wrapper header {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.wrapper header img {
+  margin-bottom: 50px;
+}
+
+.wrapper header p {
+  margin: 20px 0 50px;
+}
+
+.wrapper header button {
+  display: block;
+  margin: 15px auto 0;
+  color: white;
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wrapper header button:nth-of-type(1) {
+  background: #26baa4;
+  -webkit-box-shadow: 0 1px 5px #26baa4;
+          box-shadow: 0 1px 5px #26baa4;
+}
+
+.wrapper header button:nth-of-type(2) {
+  background: #6173ff;
+  -webkit-box-shadow: 0 1px 5px #6173ff;
+          box-shadow: 0 1px 5px #6173ff;
+}
+
+.wrapper main .snippet {
+  margin-bottom: 150px;
+}
+
+.wrapper main .snippet h2 {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.wrapper main .computer {
+  margin-bottom: 150px;
+}
+
+.wrapper main .computer img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.wrapper main .computer .cloud {
+  margin: 50px 0;
+}
+
+.wrapper main .clipboard {
+  margin-bottom: 150px;
+}
+
+.wrapper main .clipboard h2 {
+  padding: 0 20px;
+}
+
+.wrapper main .clipboard p {
+  margin: 20px 0 50px;
+}
+
+.wrapper main .clipboard img {
+  width: 100%;
+}
+
+.wrapper main .workflow {
+  margin-bottom: 150px;
+}
+
+.wrapper main .workflow h2 {
+  padding: 20px;
+}
+
+.wrapper main .workflow img {
+  display: block;
+  margin: 50px auto;
+}
+
+.wrapper main .workflow .blacklist img {
+  margin-top: 100px;
+}
+
+.wrapper main .logos {
+  margin-bottom: 200px;
+}
+
+.wrapper main .logos img {
+  display: block;
+  margin: 0 auto 70px;
+}
+
+.wrapper main .download {
+  margin-bottom: 200px;
+}
+
+.wrapper main .download h2 {
+  padding: 0 20px;
+}
+
+.wrapper main .download p {
+  margin: 20px 0 50px;
+}
+
+.wrapper main .download button {
+  display: block;
+  margin: 15px auto 0;
+  color: white;
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.wrapper main .download button:nth-of-type(1) {
+  background: #26baa4;
+  -webkit-box-shadow: 0 1px 5px #26baa4;
+          box-shadow: 0 1px 5px #26baa4;
+}
+
+.wrapper main .download button:nth-of-type(2) {
+  background: #6173ff;
+  -webkit-box-shadow: 0 1px 5px #6173ff;
+          box-shadow: 0 1px 5px #6173ff;
+}
+
+footer {
+  background: #f3f6f7;
+  padding: 50px 20px 20px;
+  text-align: center;
+}
+
+footer .about {
+  margin-bottom: 50px;
+}
+
+footer .about img {
+  width: 50px;
+}
+
+footer .about a {
+  color: #4c545d;
+  display: block;
+  margin: 50px 0;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer .social img {
+  width: 25px;
+}
+
+footer .social img:nth-of-type(2) {
+  margin: 0 30px;
+}
+
+footer .contact {
+  font-size: 0.8em;
+  color: #4c545d;
+}
+
+footer .contact #fspan {
+  padding-right: 10px;
+  border-right: 1px solid #4c545d;
+}
+
+footer .contact #sspan {
+  padding-left: 10px;
+  border-left: 1px solid #4c545d;
+}
+
+footer .contact a {
+  color: #26baa4;
+  text-decoration: underline;
+}
+
+footer .contact a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
